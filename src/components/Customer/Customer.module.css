@@ -1,0 +1,21 @@
+.Customer {
+  height: 300px;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  padding: 30px 0;
+}
+
+.customerTitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.customerContent {
+  font-size: 22px;
+  letter-spacing: -0.05ch;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 32px;
+}

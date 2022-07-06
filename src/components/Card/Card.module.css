@@ -1,0 +1,85 @@
+.Card {
+  width: 475px;
+  height: 300px;
+  background-image: repeating-radial-gradient(
+    ellipse at bottom right,
+    #ee5f7c,
+    #f56d88 40%
+  );
+  border-radius: 20px;
+  padding: 35px 20px 20px;
+  color: white;
+  font-family: Consolas, "Courier New", monospace;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.503);
+  letter-spacing: 0.2ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 55px;
+  margin: 5px 0;
+}
+
+p {
+  margin: 0;
+}
+
+.balanceTitle {
+  font-size: 14px;
+}
+
+.btn {
+  height: 50px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.132);
+  color: rgb(31, 135, 255);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.3ch;
+  background: white;
+}
+
+.numbersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.numbersContainer > div {
+  display: flex;
+}
+
+.ccnumber {
+  font-size: 20px;
+}
+
+.cardInfo {
+  display: flex;
+  align-items: center;
+  column-gap: 45px;
+}
+
+.cardInfo > div {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  column-gap: 10px;
+}
+
+.infoTitle {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.copyBtn {
+  border: none;
+  background: none;
+  margin-left: 20px;
+}
