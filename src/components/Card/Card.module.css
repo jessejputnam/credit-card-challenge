@@ -9,7 +9,7 @@
   border-radius: 20px;
   padding: 35px 20px 20px;
   color: white;
-  font-family: Consolas, "Courier New", monospace;
+  font-family: consolas, "Courier New", monospace;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.503);
   letter-spacing: 0.2ch;
   display: flex;
@@ -19,7 +19,7 @@
 }
 
 h1 {
-  font-family: Consolas, "Courier New", monospace;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 55px;
   margin: 5px 0;
 }
@@ -58,6 +58,7 @@ p {
 
 .ccnumber {
   font-size: 20px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .cardInfo {
